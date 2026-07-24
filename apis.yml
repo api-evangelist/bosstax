@@ -1,19 +1,46 @@
 aid: bosstax
 name: BossTax
-description: BossTax is a company surfaced as a portfolio company of bloomberg-beta and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: BossTax is a mobile bookkeeping and tax-filing app for 1099 workers, freelancers,
+  and independent contractors. Founded in 2022 and based in Stamford, Connecticut, BossTax
+  lets self-employed users track expenses by photographing receipts, automatically categorize
+  deductions, log expenses hands-free by voice, manage separate business banking, and file
+  federal, state, and local taxes with a licensed tax professional for a single flat fee with
+  no subscriptions. BossTax is an IRS-authorized Electronic Return Originator (ERO) and is
+  backed by Bloomberg Beta and Boyd Street Ventures. The company ships iOS and Android consumer
+  apps; it publishes no public developer API, documentation, or SDK surface at this time, so this
+  profile tracks the company identity and public web properties in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/bosstax/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bloomberg-beta
+- boyd-street-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static.wixstatic.com/media/1abe77_1cdd9056f1c54d20877ab8d6219c68bd~mv2.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Tax
+- Bookkeeping
+- Fintech
+- Freelancers
+- Self-Employed
+- Accounting
+- Mobile App
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,22 @@ maintainers:
 common:
 - type: Website
   url: https://bosstaxapp.com/
+- type: Pricing
+  url: https://www.bosstaxapp.com/payment-plans
+- type: TermsOfService
+  url: https://www.bosstaxapp.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.bosstaxapp.com/user-policies/privacy-policy
+- type: Support
+  url: https://www.bosstaxapp.com/support
+- type: Blog
+  url: https://www.bosstaxapp.com/blog
+- type: SignUp
+  url: https://www.bosstaxapp.com/download
+- type: DomainSecurity
+  url: security/bosstax-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
