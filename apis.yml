@@ -42,7 +42,7 @@ accessModel:
 image: https://static.wixstatic.com/media/1abe77_1cdd9056f1c54d20877ab8d6219c68bd~mv2.jpg
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-10-06'
 tags:
 - Company
 - Tax
@@ -59,6 +59,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://www.bosstaxapp.com/blog-feed.xml
+  type: BlogRSS
 - type: Website
   url: https://bosstaxapp.com/
 - type: Pricing
